@@ -1,0 +1,53 @@
+/* Global css style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-10px {
+    gap: 10px;
+}
+
+/* Table Css Style */
+.table,
+th,
+td {
+    border: 1px solid #E1E1E1;
+    border-collapse: collapse;
+    padding: 8px 10px 8px 10px;
+    height: 40px;
+}
+
+th {
+    width: 175px;
+
+}
+
+.person-img {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #747474;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+tr:nth-child(even) {
+    background-color: #F5F5F5;
+}
+
+#email-row {
+    width: 220px;
+}
+.email-data {
+    color: #0071CC;
+    text-decoration: underline;
+}
